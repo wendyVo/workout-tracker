@@ -39,10 +39,15 @@ npm install
 ## Screenshots:
 - Last Workout Display
 <br/>
+
 ![last workout](/assets/screenshots/workoutDisplay.PNG)
+
 <br/>
+
 - Workout logging Charts Display
+
 <br/>
+
 ![workoutDashboard](/assets/screenshots/workoutDashboard.PNG)
 
 ## License
