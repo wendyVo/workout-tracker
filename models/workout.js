@@ -45,7 +45,6 @@ workoutSchema.virtual("totalDuration").get(function() {
     return totalDuration;
 });
 
-// Since virtuals are not included by default when passing a document to Express' res.json() function, the toJSON schema option needs to be set to { virtuals: true }.
 workoutSchema.set('toJSON', { virtuals: true });
 
 const Workout = mongoose.model("Workout", workoutSchema);

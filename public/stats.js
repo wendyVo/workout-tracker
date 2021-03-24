@@ -192,17 +192,5 @@ function workoutNames(data) {
     return [...new Set(workouts)];
 }
 
-// function totalDuration(data) {
-//     let durationWorkout = [];
-
-//     data.forEach(workout => {
-//         workout.exercises.forEach(exercise => {
-//             durationWorkout.push(exercise.duration);
-//         });
-//     });
-
-//     return durationWorkout;
-// }
-
 // get all workout data from back-end
 API.getWorkoutsInRange().then(populateChart);
